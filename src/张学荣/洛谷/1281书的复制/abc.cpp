@@ -35,11 +35,12 @@ int main() {
 	save[peopleN][1]=save[peopleN][0]=bookN;
 	for(int i=peopleN; i>0; i--) {
 		while(save[i][0]>i-1 /*至少留i-1本书给i-1个人  */&& t[save[i][1]]-t[save[i][0]-1]<=dp[peopleN][bookN]) 
+		//当时间超过的时候退出循环 
 			save[i][0]--;
-		save[i][0]++;
-		save[i-1][1]=save[i-1][0]=save[i][0]-1;
+		save[i][0]++;//多算一个 
+		save[i-1][1]=save[i-1][0]=save[i][0]-1;//下一项尾指针指向下一本书 
 	}
 	for(int i=1; i<=peopleN; i++)
-		printf("%d %d\peopleN",save[i][0],save[i][1]);
+		printf("%d %d\n",save[i][0],save[i][1]);
 	return 0;
 }
