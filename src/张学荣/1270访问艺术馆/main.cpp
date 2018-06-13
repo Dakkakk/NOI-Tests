@@ -23,10 +23,25 @@ using namespace std;
 其中left和right为n的左右子结点，t0的取值范围为[0, t]。
 	算法的时间复杂度为O(n3)。
 */
-
+int maxt;
+int time[201];
+int dp[200][10*60+1];
+inline void read(int pos){
+	int a,b;
+	scanf("%d%d",&a,&b);
+	time[pos]=a;
+	if(b==0){
+		read(pos*2);
+		read(pos*2+1);
+	}else{
+		time[pos*2]=b*5;
+	}
+} 
 int main(){
 	freopen("in.txt","r",stdin);
 //	freopen("out.txt","w",stdout);
+	scanf("%d",&maxt);
+	read(1);
 	
 	return 0;
 }
