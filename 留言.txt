@@ -1,0 +1,2 @@
+//日期  姓名 内容
+//e.g. 5.13 student1 create“留言”.txt,everyone can leave massage here.
