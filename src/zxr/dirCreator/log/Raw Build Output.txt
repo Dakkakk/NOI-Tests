@@ -1,0 +1,89 @@
+2018-04-14 13:59:21: Creating log...
+
+编译器: TDM-GCC 4.7.1 64-bit Release
+Building Makefile "H:\Programm\dirCreator\Makefile.win"
+执行  make...
+mingw32-make.exe -f "H:\Programm\dirCreator\Makefile.win" all
+g++.exe -c main.c -o obj/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++" -g3
+windres.exe -i dirCreator_private.rc --input-format=rc -o obj/dirCreator_private.res -O coff 
+g++.exe obj/main.o obj/dirCreator_private.res -o ../dirCreator.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+Compilation succeeded in 3.07 seconds
+
+2018-04-14 13:59:47: Appending to log...
+
+编译器: TDM-GCC 4.7.1 64-bit Release
+Building Makefile "H:\Programm\dirCreator\Makefile.win"
+执行  make...
+mingw32-make.exe -f "H:\Programm\dirCreator\Makefile.win" all
+windres.exe -i dirCreator_private.rc --input-format=rc -o obj/dirCreator_private.res -O coff 
+g++.exe obj/main.o obj/dirCreator_private.res -o ../dirCreator.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+Compilation succeeded in 2.03 seconds
+
+2018-04-14 19:18:37: Appending to log...
+
+编译器: TDM-GCC 4.7.1 64-bit Release
+Building Makefile "H:\Programm\dirCreator\Makefile.win"
+执行  make...
+mingw32-make.exe -f "H:\Programm\dirCreator\Makefile.win" all
+g++.exe -c main.c -o obj/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++" -g3
+g++.exe obj/main.o obj/dirCreator_private.res -o ../dirCreator.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+Compilation succeeded in 3.34 seconds
+
+2018-09-17 17:28:51: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\Shared\testing\src\zxr\dirCreator\dirCreator.dev
+- 编译器名: MinGW GCC 4.8.1
+
+生成 makefile...
+--------
+- 文件名: D:\Shared\testing\src\zxr\dirCreator\Makefile.win
+- 资源文件: D:\Shared\testing\src\zxr\dirCreator\obj\dirCreator_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\OIPackages\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\Shared\testing\src\zxr\dirCreator\Makefile.win" all
+
+g++.exe -c main.c -o obj/main.o -I"C:/OIPackages/MinGW32/include" -I"C:/OIPackages/MinGW32/mingw32/include" -I"C:/OIPackages/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"C:/OIPackages/MinGW32/lib/gcc/mingw32/4.8.1/include/c++" -g3
+g++.exe obj/main.o obj/dirCreator_private.res -o ../../Programm/dirCreator.exe -L"C:/OIPackages/MinGW32/lib" -L"C:/OIPackages/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -g3
+c:/oipackages/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ../../Programm/dirCreator.exe: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+D:\Shared\testing\src\zxr\dirCreator\Makefile.win:26: recipe for target '../../Programm/dirCreator.exe' failed
+mingw32-make.exe: *** [../../Programm/dirCreator.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 2.28s
+
+2018-09-17 17:29:00: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\Shared\testing\src\zxr\dirCreator\dirCreator.dev
+- 编译器名: MinGW GCC 4.8.1
+
+生成 makefile...
+--------
+- 文件名: D:\Shared\testing\src\zxr\dirCreator\Makefile.win
+- 资源文件: D:\Shared\testing\src\zxr\dirCreator\obj\dirCreator_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: C:\OIPackages\MinGW32\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\Shared\testing\src\zxr\dirCreator\Makefile.win" all
+
+g++.exe obj/main.o obj/dirCreator_private.res -o ../../Programm/dirCreator.exe -L"C:/OIPackages/MinGW32/lib" -L"C:/OIPackages/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -g3
+c:/oipackages/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ../../Programm/dirCreator.exe: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+D:\Shared\testing\src\zxr\dirCreator\Makefile.win:26: recipe for target '../../Programm/dirCreator.exe' failed
+mingw32-make.exe: *** [../../Programm/dirCreator.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.92s

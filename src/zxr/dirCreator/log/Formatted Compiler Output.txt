@@ -1,0 +1,11 @@
+2018-09-17 17:28:51: Creating log...
+
+		c:\oipackages\mingw32\mingw32\bin\ld.exe	cannot open output file ../../Programm/dirCreator.exe: No such file or directory
+		D:\Shared\testing\src\zxr\dirCreator\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Shared\testing\src\zxr\dirCreator\Makefile.win	recipe for target '../../Programm/dirCreator.exe' failed
+
+2018-09-17 17:29:00: Appending to log...
+
+		c:\oipackages\mingw32\mingw32\bin\ld.exe	cannot open output file ../../Programm/dirCreator.exe: No such file or directory
+		D:\Shared\testing\src\zxr\dirCreator\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Shared\testing\src\zxr\dirCreator\Makefile.win	recipe for target '../../Programm/dirCreator.exe' failed
